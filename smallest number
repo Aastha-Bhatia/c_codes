@@ -1,0 +1,21 @@
+// WRITE A PROGRAM TO PRINT THE SMALLEST NUMBER 
+#include<stdio.h>
+int main(){
+    int a,b,c;
+    printf("ENTER A : ");
+    scanf("%d",&a);
+    printf("ENTER B : ");
+    scanf("%d",&b);
+    printf("ENTER C : ");
+    scanf("%d",&c);
+    if(a<b&&a<c){
+        printf("%d is the smallest number",a);
+    }
+    else if(b<a&&b<c){
+        printf("%d is the smallest number",b);
+    }
+    else if(c<a&&c<b){
+        printf("%d is the smallest number",c);
+    }
+    return 0;
+}
