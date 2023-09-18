@@ -1,4 +1,4 @@
-// area of square
+// AREA OF SQUARE
 int main(){
   float r;
   printf("enter the side of sq : ",r);
