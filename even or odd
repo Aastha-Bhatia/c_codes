@@ -1,0 +1,14 @@
+// WRITE A PROGRAM TO FIND IF THE NUMBER IS EVEN OR ODD 
+// WRITE A PROGRAM TO FIND IF THE NUMBER IS DIVISIBLE BY 2 OR NOT 
+#include<stdio.h>
+int main(){
+    int a;
+    printf("Enter a number :");
+    scanf("%d",&a);
+    if(a%2==0){
+        printf("Even");
+    }
+    else{
+        printf("Odd");
+    }
+    }
