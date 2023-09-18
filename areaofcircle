@@ -1,0 +1,9 @@
+// area of circle
+#include <stdio.h>
+int main(){
+  float r;
+  printf("enter the radius of sq : ");
+  scanf("%f",&r);
+  printf("Area of sq is : %f ", 3.14*r*r);
+  return 0;
+}
