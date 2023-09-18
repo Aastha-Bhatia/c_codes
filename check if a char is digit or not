@@ -1,0 +1,13 @@
+// WRITE A PROGRAM TO CHECK IF A GIVEN CHARACTER IS DIGIT OR NOT 
+#include<stdio.h>
+int main(){
+    char a;
+    printf("ENTER A CHARACTER : ");
+    scanf("%c",&a);
+    if(a>='0'&&a<='9'){
+        printf("It is a digit");
+    }
+    else{
+        printf("It is not a digit");
+    }
+}
