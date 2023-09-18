@@ -1,0 +1,14 @@
+// WRITE A PROGRAM TO FIND IF THE NUMBER IS TWO DIGIT NUMBER OR NOT 
+#include<stdio.h>
+int main(){
+  int a;
+  printf("Enter the number : ");
+  scanf("%d",&a);
+  if(a>9 && a<100){
+    printf("It is a two digit number");
+  }
+  else{
+    printf("It is not a two digit number");
+  }
+  return 0;
+}
