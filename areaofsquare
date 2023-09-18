@@ -1,0 +1,8 @@
+// area of square
+int main(){
+  float r;
+  printf("enter the side of sq : ",r);
+  scanf("%f",&r);
+  printf("Area of sq is : %f ", r*r);
+  return 0;
+}
