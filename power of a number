@@ -1,0 +1,13 @@
+// POWER OF A NUMBER
+#include<stdio.h>
+#include<math.h>
+int main(){
+  int num,s,power;
+  printf("Enter number : ");
+  scanf("%d",&num);
+  printf("Enter raised to the power : ");
+  scanf("%d",&s);
+  power=pow(num,s);
+  printf("%d raised to the power %d is : %d ",num,s,power);
+  return 0;
+}
