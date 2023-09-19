@@ -1,0 +1,11 @@
+// Print the reverse of a table of a number n
+#include<stdio.h>
+int main(){
+    int a;
+    printf("Enter a number");
+    scanf("%d",&a);
+    for(int i=10;i>=1;i=i-1){
+        printf("%dx%d=%d\n",a,i,a*i);
+    }
+    return 0;
+}

@@ -1,0 +1,15 @@
+// print the sum of first n natural numbers
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter a number till which you want the sum: ");
+    scanf("%d",&a);
+    int i=1;
+    int sum=0;
+    while(i<=a){
+        sum=sum+i;
+        i=i+1;
+    }
+    printf("The sum of n natural numbers is : %d\n",sum);
+    return 0;
+}

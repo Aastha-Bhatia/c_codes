@@ -1,0 +1,14 @@
+// WAP TO CHECK IF A GIVEN NUMBER IS NATURAL OR NOT
+#include<stdio.h>
+int main(){
+    int num;
+    printf("ENTER THE NUMBER: ");
+    scanf("%d",&num);
+    if(num<=0){
+        printf("Not a natural number");
+    }
+    else{
+        printf("Natural number");
+    }
+    return 0;
+}

@@ -1,0 +1,11 @@
+//print all characters from 0 to n entered by the user
+include <stdio.h>
+ int main() {
+     int a;
+     printf("Enter a number : ");
+     scanf("%d",&a);
+     for(int i=0;i<=a;i=i+1){
+         printf("%d\n",i);
+     }
+     return 0;
+ }

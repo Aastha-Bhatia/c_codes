@@ -1,0 +1,14 @@
+// Print the factorial of a number n
+#include<stdio.h>
+int main(){
+    int a;
+    int mul=1;
+    printf("Enter the number whose factorial you want to calculate : ");
+    scanf("%d",&a);
+    // suppose 3!=3X2X1
+    for(int i=a;i>=1;i=i-1){
+        mul=mul*i;
+    }
+    printf("The factorial of %d is: %d",a,mul);
+    return 0;
+}

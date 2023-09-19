@@ -1,0 +1,14 @@
+// WRITE A PROGRAM TO FIND IF THE USER HAS ENTERED UPPER CASE CHARACTER OR NOT
+#include<stdio.h>
+int main(){
+    char a;
+    printf("ENTER A CHARACTER : ");
+    scanf("%c",&a);
+    if(a>='a' && a<='z'){
+        printf("lowercase\n");
+    }
+    else if(a>='A'&& a<='Z'){
+        printf("uppercase\n");
+    }
+    return 0;
+}

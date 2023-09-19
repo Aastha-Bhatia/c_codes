@@ -1,0 +1,32 @@
+// WAP TO CHECK IF A GIVEN NUMBER IS ARMSTRONG OR NOT
+#include<stdio.h>
+#include<math.h>
+int main(){
+    int n;
+    int rem;
+    int answer=0;
+    printf("Enter a number : ");
+    scanf("%d",&n);
+    int s=n;
+    int p=n;
+    // first step is to find out the length of number
+    int count=0;
+    while (n>0){
+        n=n/10;
+        count=count+1;
+        // here count is the length of number 
+    }
+    // second step is to find remainders with power length and add them
+    while (s>0){
+        rem=s%10;
+        answer=answer+(int)pow(rem,count);
+        s=s/10;
+    }
+    printf("Sum of digits is : %d",answer);
+    if (answer==p){
+        printf("\nIt is an armstrong number\n");
+    }
+    else{
+        printf("\nIt is not armstong number\n");
+    }
+}
