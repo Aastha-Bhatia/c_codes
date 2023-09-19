@@ -2,8 +2,8 @@
 #include <stdio.h>
 int main(){
   float r;
-  printf("enter the radius of sq : ");
+  printf("enter the radius of circle : ");
   scanf("%f",&r);
-  printf("Area of sq is : %f ", 3.14*r*r);
+  printf("Area of circle is : %f ", 3.14*r*r);
   return 0;
 }
