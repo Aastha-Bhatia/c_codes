@@ -1,0 +1,21 @@
+// WRITE A FUNCTION TO PRINT HOT OR COLD DEPENDING ON THE TEMPERATURE THAT THE USER ENTERS
+#include<stdio.h>
+void temperature(float a);
+int main(){
+    float a;
+    printf("Enter the temperature in Celsius : ");
+    scanf("%f",&a);
+    temperature(a);
+    return 0;
+}
+void temperature(float a){
+    if(a>26.67){
+        printf("Hot");
+    }
+    else if(a>15.56){
+        printf("Cold");
+    }
+    else{
+        printf("Mild");
+    }
+}
