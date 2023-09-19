@@ -1,0 +1,15 @@
+// WRITE A PROGRAM TO FIND SUM OF DIGITS OF A NUMBER
+#include<stdio.h>
+int main(){
+    int a;int sum=0;
+    printf("Enter a number : ");
+    scanf("%d",&a);
+    int n=a;
+    while(a>0){
+        int b=a%10;
+        a=a/10;
+        sum=sum+b;
+    }
+    printf("The sum of digits of number %d is %d",n,sum);
+    return 0;
+}
