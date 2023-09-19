@@ -1,0 +1,21 @@
+// MAKE YOUR OWN POWER FUNCTION
+#include<stdio.h>
+int power(int a,int b);
+int main(){
+    int a,b;
+    printf("Enter the number : ");
+    scanf("%d",&a);
+    printf("Enter the power : ");
+    scanf("%d",&b);
+    int answer=power(a,b);
+    printf("%d raised to power %d is : %d",a,b,answer);
+    return 0;
+}
+int power(int a,int b){
+    int result=1;
+    // suppose power=3, 2*2*2
+    for(int i=1;i<=b;i++){
+        result*=a;
+    }
+    return result;
+}
