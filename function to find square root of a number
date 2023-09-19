@@ -1,0 +1,17 @@
+// WRITE A FUNCTION TO FIND SQUARE ROOT OF A NUMBER
+#include<stdio.h>
+#include<math.h>
+float sqroot(int a); // Function prototype
+int main() {
+    int a;
+    printf("Enter a number : ");
+    scanf("%d", &a);
+    float c = sqroot(a);
+    printf("The square root of %d is %f", a, c);
+    return 0;
+}
+float sqroot(int a) {
+    float squareroot;
+    squareroot = sqrt(a);
+    return squareroot;
+}
