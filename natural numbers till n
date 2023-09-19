@@ -1,5 +1,5 @@
 //print all characters from 0 to n entered by the user
-include <stdio.h>
+#include <stdio.h>
  int main() {
      int a;
      printf("Enter a number : ");
