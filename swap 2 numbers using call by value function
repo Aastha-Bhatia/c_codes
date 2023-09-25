@@ -1,0 +1,20 @@
+// SWAP 2 NUMBERS USING CALL BY VALUE
+// using call by value
+#include<stdio.h>
+void swap(int a,int b);
+int main(){
+    int a,b;
+    printf("Enter the value of A:");
+    scanf("%d",&a);
+    printf("Enter the value of B:");
+    scanf("%d",&b);
+    swap(a,b);
+    printf("The previous value of A and B was:%d and %d\n",a,b);
+}
+void swap(int a,int b){
+    int t=a;
+    a=b;
+    b=t;
+    printf("The value of A:%d\n",a);
+    printf("The value of B:%d\n",b);
+}

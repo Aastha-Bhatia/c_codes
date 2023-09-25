@@ -1,0 +1,21 @@
+// FIND THE SUM,PRODUCT,AVERAGE OF 2 NUMBERS BY USING CALL BY REFERANCE FUNCTION
+#include<stdio.h>
+void function(int a,int b,int *sum,int *average,int *product);
+int main(){
+    int a,b;
+    int sum,average,product;
+    printf("Enter first number:");
+    scanf("%d",&a);
+    printf("Enter second number:");
+    scanf("%d",&b);
+    function(a,b,&sum,&average,&product);
+    printf("sum=%d\n",sum);
+    printf("average=%d\n",average);
+    printf("product=%d\n",product);
+    return 0;
+}
+void function(int a,int b,int *sum,int *average, int *product){
+    *sum=a+b;
+    *average=(a+b)/2;
+    *product=a*b;
+}
