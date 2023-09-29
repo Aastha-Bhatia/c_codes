@@ -1,0 +1,16 @@
+// WAP TO ENTER PRICE OF 3 ITEMS AND PRINT THEIR FINAL COST WITH GST- 18% USING ARRAY
+#include<stdio.h>
+int main(){
+    float arr[3];
+    printf("Enter price of 1:");
+    scanf("%f",&arr[0]);
+    printf("Enter price of 2:");
+    scanf("%f",&arr[1]);
+    printf("Enter price of 3:");
+    scanf("%f",&arr[2]);
+
+    printf("total price of 1:%f \n",arr[0]+(0.18*arr[0]));
+    printf("total price of 2:%f \n",arr[1]+(0.18*arr[1]));
+    printf("total price of 3:%f \n",arr[2]+(0.18*arr[2]));
+    return 0;
+}
