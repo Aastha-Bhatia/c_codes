@@ -25,11 +25,11 @@ int main(){
         }
     }
     if(flag==1){
-        printf("\nIt is a palindrone array");
+        printf("\nIt is a palindrome array");
     }
     else
     {
-        printf("\nNot a palindrone array");
+        printf("\nNot a palindrome array");
     }
     return 0;
 }
