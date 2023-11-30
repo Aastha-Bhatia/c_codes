@@ -1,0 +1,26 @@
+//write a function to count the number of odd numbers in an array 
+
+#include<stdio.h>
+int main(){
+    int n;int count=0;
+    printf("Write the number of elements of array : ");
+    scanf("%d",&n);
+    int arr[n];
+    // taking input of an array
+    for(int i=0;i<n;i++){
+        scanf("%d",&arr[i]);
+    }
+    // printing the array
+    for(int i=0;i<n;i++){
+        printf("%d\t",arr[i]);
+    }
+    printf("\n");
+    // counting the number of odd numbers in an array
+    for(int i=0;i<n;i++){
+        if(arr[i]%2!=0){
+            count++;
+        }
+    }
+    printf("The count of odd numers in the array is : %d",count);
+    return 0;
+}
