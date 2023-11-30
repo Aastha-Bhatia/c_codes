@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+    int arr[3];
+    printf("ENTER MARKS OF PHYSICS: ");
+    scanf("%d",&arr[0]);
+    printf("ENTER MARKS OF CHEMISTRY: ");
+    scanf("%d",&arr[1]);
+    printf("ENTER MARKS OF MATHS: ");
+    scanf("%d",&arr[2]);
+    printf("PHYSICS:%d, CHEMISTRY:%d, MATHS:%d",arr[0],arr[1],arr[2]);
+    int average=(arr[0]+arr[1]+arr[2])/3;
+    printf("\nAverage is : %d",average);
+    return 0;
+}
