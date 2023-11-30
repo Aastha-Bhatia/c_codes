@@ -1,0 +1,32 @@
+// array searching
+#include<stdio.h>
+int main(){
+// [1,2,3,4]
+int n;int sum=0;
+printf("Enter the size of array:");
+scanf("%d",&n);
+int arr[n];
+for(int i=0;i<n;i++){
+    printf("Enter the %d element:",i);
+    scanf("%d",&arr[i]);
+}
+printf("\nThe array is:\n");
+for(int i=0;i<n;i++){
+    printf("%d\t",arr[i]);
+}
+int x;
+printf("\nWrite the number you want to search : ");
+scanf("%d",&x);
+int flag=-1;
+for(int i=0;i<n;i++){
+    if(arr[i]==x){
+        printf("Found on Index %d\n",i);
+        flag=1;
+        break;
+    }
+}
+if(flag==-1){
+    printf("%d",flag);
+}
+return 0;
+}
