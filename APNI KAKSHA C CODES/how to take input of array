@@ -1,0 +1,17 @@
+//write a function to take input of an array
+#include<stdio.h>
+int main(){
+    int n;
+    printf("Enter the size of array : ");
+    scanf("%d",&n);
+    int arr[n];
+    printf("Enter the elements of array : \n");
+    for(int c=0;c<n;c++){
+        scanf("%d",&arr[c]);
+    }
+    for(int p=0;p<n;p++){
+        printf("%d\t",arr[p]);
+    }
+    printf("\n");
+    return 0;
+}

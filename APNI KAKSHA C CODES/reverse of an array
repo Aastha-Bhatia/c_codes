@@ -1,0 +1,17 @@
+// write a function to reverse an array
+#include<stdio.h>
+int main(){
+    int n;
+    printf("write the number of elements of array");
+    scanf("%d",&n);
+    int arr[n];
+    // taking input of an array
+    for(int i=0;i<n;i++){
+        scanf("%d",&arr[i]);
+    }
+    // printing the reverse of array
+    for(int i=n-1;i>=0;i--){
+        printf("%d\t",arr[i]);
+    }
+    return 0;
+}

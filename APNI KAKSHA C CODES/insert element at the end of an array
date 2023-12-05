@@ -1,0 +1,30 @@
+// write a program to insert an element at the end of an array 
+#include<stdio.h>
+int main(){
+    int n;
+    printf("Enter the size of array:");
+    scanf("%d",&n);
+    int arr[n];
+    for(int i=0;i<n;i++){
+        printf("Enter the %d element:",i);
+        scanf("%d",&arr[i]);
+    }
+    printf("\nThe array is:\n");
+    for(int i=0;i<n;i++){
+        printf("%d\t",arr[i]);
+    }
+    // entering an element in the end
+    int x;
+    printf("\nEnter the element you want to add to the last of and array: ");
+    scanf("%d",&x);
+    int array[n+1];
+    for(int i=0;i<n;i++){
+        array[i]=arr[i];
+    }
+    array[n]=x;
+    printf("\nThe array is:\n");
+    for(int i=0;i<n+1;i++){
+        printf("%d\t",array[i]);
+    }
+    return 0;
+}

@@ -1,0 +1,19 @@
+#include<stdio.h>
+void calculator(int a,int b,int *s,int *d,int *p,int *q,int *r);
+int main(){
+    int a,b,sum,diff,prod,division,remainder;
+    printf("Enter first number:");
+    scanf("%d",&a);
+    printf("Enter second number:");
+    scanf("%d",&b);
+    calculator(a,b,&sum,&diff,&prod,&division,&remainder);
+    printf("Outside the function:\nsum=%d\ndiff=%d\nprod=%d\ndivision=%d\nremainder=%d\n",sum,diff,prod,division,remainder);
+    return 0;
+}
+void calculator(int a,int b,int *s,int *d,int *p,int *q,int *r){
+    *s=a+b;
+    *d=a-b;
+    *p=a*b;
+    *q=a/b;
+    *r=a%b;
+}
