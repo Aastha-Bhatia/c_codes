@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main() 
+{
+    printf("Hello, World!\n");
+    char a[50];  
+    fgets(a,25,stdin);
+    printf("%s.",a);
+    return 0;
+}
