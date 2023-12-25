@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+    char ch;
+    scanf("%c",&ch);
+    getchar(); // used to consume a new line character it it exists
+    printf("%c\n",ch);
+    char s[15];
+    scanf("%s",s);
+    getchar();
+    char sen[100];
+    fgets(sen,100,stdin);
+    getchar();
+    printf("%s\n",s);
+    printf("%s",sen);
+    return 0;
+}
