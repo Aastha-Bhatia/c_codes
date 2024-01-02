@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int max_of_four(int a,int b,int c,int d,int z);
+
+int main() {
+    int z;
+    int a, b, c, d;
+    scanf("%d %d %d %d", &a, &b, &c, &d);
+    int ans = max_of_four(a, b, c, d,z);
+    printf("%d", ans);
+    
+    return 0;
+}
+
+int max_of_four(int a,int b,int c,int d,int z){
+    if(a>b&&a>c&&a>d){
+        z=a;
+    }
+    if(b>a&&b>c&&b>d){
+        z=b;
+    }
+    if(c>b&&c>a&&c>d){
+        z=c;
+    }
+    if(d>b&&d>c&&d>a){
+        z=d;
+    }
+    return z;
+};

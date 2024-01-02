@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+	string a;string b;
+    cin>>a>>b;
+    string p=a;
+    cout<<a.length()<<" "<<b.length()<<endl;
+    a.append(b);
+    cout<<a<<endl;
+    char c=b[0];
+    b[0]=p[0];
+    p[0]=c;
+    cout<<p<<" "<<b;
+    return 0;
+}
