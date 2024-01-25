@@ -1,0 +1,8 @@
+Problem statement:
+Which of the following is the proper declaration of a pointer?
+a. int x;
+b. int &x;
+c. int *x;
+d. ptr x;
+
+Answer:- c
