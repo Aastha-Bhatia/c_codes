@@ -1,0 +1,8 @@
+Problem statement
+Which of the following gives the memory address of integer variable a ?
+a. *a;
+b. a;
+c. &a;
+d. address(a);
+
+Answer :- c
