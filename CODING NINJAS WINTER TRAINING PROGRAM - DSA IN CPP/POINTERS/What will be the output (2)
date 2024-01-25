@@ -1,0 +1,14 @@
+Problem statement
+ int a = 50;
+ int *ptr = &a;
+ int *q = ptr;
+ (*q)++;
+ cout << a  << endl;
+
+ a. 50
+ b. 51
+ c. Error
+ d. None of these
+
+ Answer:- b 
+ 

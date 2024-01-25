@@ -1,0 +1,13 @@
+Problem statement
+What will happen in this code?
+
+int a = 100, b = 200;
+int *p = &a, *q = &b;
+p = q;
+
+a. b is assigned to a
+b. p now points to b 
+c. a is assigned to b
+d. q now points to a
+
+Answer:- b 

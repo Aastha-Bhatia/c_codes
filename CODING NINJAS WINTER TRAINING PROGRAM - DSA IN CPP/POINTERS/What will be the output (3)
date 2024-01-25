@@ -1,0 +1,12 @@
+Problem statement
+ int a = 50;
+ int *ptr = &a;
+ cout << (*ptr)++ << “ “;
+ cout << a << endl; 
+
+ a. 50 51
+ b. 51 50
+ c. 51 51 
+ d. 50 50
+
+ Answer:- a 
